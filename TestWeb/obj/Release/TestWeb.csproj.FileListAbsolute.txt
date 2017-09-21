@@ -1,0 +1,4 @@
+C:\temp\k9u8m7a6\VS2010\TestWeb\TestWeb\bin\TestWeb.dll
+C:\temp\k9u8m7a6\VS2010\TestWeb\TestWeb\bin\TestWeb.pdb
+C:\temp\k9u8m7a6\VS2010\TestWeb\TestWeb\obj\Release\TestWeb.dll
+C:\temp\k9u8m7a6\VS2010\TestWeb\TestWeb\obj\Release\TestWeb.pdb

@@ -1,0 +1,256 @@
+<wafl xmlns="http://www.ibm.com/WAFLSchema">
+  <global-bean-decls>
+  </global-bean-decls>
+  <synthetic-methods>
+    <synthetic-method sig="AppScan.Synthetic.dotNet.requestValidateNameValueCollection(System.Collections.Specialized.NameValueCollection):System.Collections.Specialized.NameValueCollection">
+      <body>
+        <call signature="System.Web.HttpRequest.ValidateNameValueCollection(System.Collections.Specialized.NameValueCollection;System.String):System.Void">
+          <actual-parameter pos="0">
+            <formal pos="0"/>
+          </actual-parameter>
+        </call>
+        <return>
+          <object-ref ap="">
+            <formal pos="0"/>
+          </object-ref>
+        </return>
+      </body>
+    </synthetic-method>
+    <synthetic-method sig="AppScan.Synthetic.dotNet.requestValidateString(System.String):System.String">
+      <body>
+        <call signature="System.Web.HttpRequest.ValidateString(System.String;System.String;System.String):System.Void">
+          <actual-parameter pos="0">
+            <formal pos="0"/>
+          </actual-parameter>
+        </call>
+        <return>
+          <object-ref ap="">
+            <formal pos="0"/>
+          </object-ref>
+        </return>
+      </body>
+    </synthetic-method>
+  </synthetic-methods>
+  <entrypoints>
+    <entrypoint sig="ASP.about_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.about_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.about_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.about_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.about_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepassword_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepassword_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepassword_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepassword_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepassword_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepasswordsuccess_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepasswordsuccess_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepasswordsuccess_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepasswordsuccess_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_changepasswordsuccess_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_login_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_login_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_login_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_login_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_login_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_register_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_register_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_register_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_register_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.account_register_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.FrameworkInitialize():System.Void">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.GetTypeHashCode():System.Int32">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.ProcessRequest(System.Web.HttpContext):System.Void">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.default_aspx.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+    <entrypoint sig="ASP.global_asax.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/global.asax</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.FrameworkInitialize():System.Void">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.get_ApplicationInstance():ASP.global_asax">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.get_Profile():System.Web.Profile.DefaultProfile">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.get_Template_HeadContent():System.Web.UI.ITemplate">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.get_Template_MainContent():System.Web.UI.ITemplate">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.set_Template_HeadContent(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="ASP.site_master.set_Template_MainContent(System.Web.UI.ITemplate):System.Void">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.About.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/About.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.Account.ChangePassword.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Account/ChangePassword.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.Account.ChangePasswordSuccess.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Account/ChangePasswordSuccess.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.Account.Login.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Account/Login.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.Account.Register.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.Account.Register.RegisterUser_CreatedUser(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Account/Register.aspx</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb.SiteMaster.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Site.Master</url>
+    </entrypoint>
+    <entrypoint sig="TestWeb._Default.Page_Load(System.Object;System.EventArgs):System.Void">
+      <url>/Web/Default.aspx</url>
+    </entrypoint>
+  </entrypoints>
+  <call-replacements>
+    <replace-call>
+      <call-site-info caller="TestWeb.Account.Login.Page_Load(System.Object;System.EventArgs):System.Void" call-sig="System.Web.HttpRequest.get_QueryString():System.Collections.Specialized.NameValueCollection" bytecodeIndex="18" srcLineNum="14"/>
+      <replacement>
+        <assignment>
+          <l-value>
+            <arg-to-orig-call pos="-1"/>
+          </l-value>
+          <r-value>
+            <call signature="AppScan.Synthetic.dotNet.requestValidateNameValueCollection(System.Collections.Specialized.NameValueCollection):System.Collections.Specialized.NameValueCollection">
+              <actual-parameter pos="0">
+                <call signature="System.Web.HttpRequest.get_QueryString():System.Collections.Specialized.NameValueCollection">
+                  <actual-parameter pos="0">
+                    <arg-to-orig-call pos="0"/>
+                  </actual-parameter>
+                </call>
+              </actual-parameter>
+            </call>
+          </r-value>
+        </assignment>
+      </replacement>
+    </replace-call>
+    <replace-call>
+      <call-site-info caller="TestWeb.Account.Login.Page_Load(System.Object;System.EventArgs):System.Void" call-sig="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void" bytecodeIndex="43" srcLineNum="14"/>
+      <replacement>
+        <call signature="System.Web.UI.WebControls.HyperLink.set_NavigateUrl(System.String):System.Void">
+          <actual-parameter pos="0">
+            <arg-to-orig-call pos="0"/>
+          </actual-parameter>
+          <actual-parameter pos="1">
+            <call signature="System.Web.HttpUtility.HtmlEncode(System.String):System.String">
+              <actual-parameter pos="0">
+                <arg-to-orig-call pos="1"/>
+              </actual-parameter>
+            </call>
+          </actual-parameter>
+        </call>
+      </replacement>
+    </replace-call>
+    <replace-call>
+      <call-site-info caller="TestWeb.Account.Register.Page_Load(System.Object;System.EventArgs):System.Void" call-sig="System.Web.HttpRequest.get_QueryString():System.Collections.Specialized.NameValueCollection" bytecodeIndex="13" srcLineNum="16"/>
+      <replacement>
+        <assignment>
+          <l-value>
+            <arg-to-orig-call pos="-1"/>
+          </l-value>
+          <r-value>
+            <call signature="AppScan.Synthetic.dotNet.requestValidateNameValueCollection(System.Collections.Specialized.NameValueCollection):System.Collections.Specialized.NameValueCollection">
+              <actual-parameter pos="0">
+                <call signature="System.Web.HttpRequest.get_QueryString():System.Collections.Specialized.NameValueCollection">
+                  <actual-parameter pos="0">
+                    <arg-to-orig-call pos="0"/>
+                  </actual-parameter>
+                </call>
+              </actual-parameter>
+            </call>
+          </r-value>
+        </assignment>
+      </replacement>
+    </replace-call>
+    <replace-call>
+      <call-site-info caller="TestWeb.Account.Register.RegisterUser_CreatedUser(System.Object;System.EventArgs):System.Void" call-sig="System.Web.UI.WebControls.CreateUserWizard.get_UserName():System.String" bytecodeIndex="7" srcLineNum="21"/>
+      <replacement>
+        <assignment>
+          <l-value>
+            <arg-to-orig-call pos="-1"/>
+          </l-value>
+          <r-value>
+            <call signature="AppScan.Synthetic.dotNet.requestValidateString(System.String):System.String">
+              <actual-parameter pos="0">
+                <call signature="System.Web.UI.WebControls.CreateUserWizard.get_UserName():System.String">
+                  <actual-parameter pos="0">
+                    <arg-to-orig-call pos="0"/>
+                  </actual-parameter>
+                </call>
+              </actual-parameter>
+            </call>
+          </r-value>
+        </assignment>
+      </replacement>
+    </replace-call>
+  </call-replacements>
+</wafl>
